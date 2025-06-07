@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Only-Style </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Only-Style: Stylistic Alignment in Image Generation without Content Leakage</h1>
+        <p>Anonymous CVPR submission</p>
+        <p>Paper ID 16257</p>
+    </header>
+
+    <section>
+        <div class="buttons">
+            <a href="https://github.com/CVPR-2025-16257/Only-Style-Implementation" class="button" target="_blank">💻 Code</a>
+        </div>
+    </section>
+
+    <section style="text-align: center; padding: 20px;">
+        <h2 style="margin-bottom: 20px;">Teaser Video</h2>
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/lRv1xZHFlTI" 
+                title="Only-Style Teaser Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <section style="padding: 20px; max-width: 800px; margin: 0 auto; text-align: justify;">
+        <h2 style="text-align: center; margin-bottom: 20px;">Abstract</h2>
+        <p>
+            Recent state-of-the-art style alignment methods in generative text-to-image use attention layers during batched inference to transfer stylistic elements from a reference image to others, removing the need for additional optimization to establish new visual priors. However, such approaches often fail to effectively separate semantic content from stylistic elements, leading to content leakage from the reference image to the targets. To address this challenge, we propose Only-Style: a method designed to mitigate content leakage in a semantically coherent manner, within the context of attention-based style alignment, while preserving stylistic consistency. Only-Style works by localizing content leakage during inference, allowing the adaptive tuning of a scaling parameter that controls the style alignment process, specifically within the image patches containing the subject in the reference image. This adaptive process results in the optimal value that eliminates leakage while maintaining stylistic alignment. In addition, we propose a novel evaluation framework to quantify the success of style-aligned generations in avoiding undesired content leakage. Our approach demonstrates a significant improvement over state-of-the-art methods through extensive evaluation across diverse instances, consistently achieving robust style alignment without undesired content leakage.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Only-Style Project CVPR 2025 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
