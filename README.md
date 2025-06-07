@@ -1,2 +1,2 @@
 # Only-Style-PP
-Oficial Project Page repository for Only-Style 
+Official Project Page repository for Only-Style 
